@@ -1,5 +1,4 @@
 # BBC Homepage Scraper
-![DashBored Logo](https://i.imgur.com/SmsHwTp.png "DashBored")
 
 A web application that scrapes the BBC homepage of all articles, and populates a minimal new page with said info. Users are then able to click on individual articles, and leave notes on the articles with persistence. Technologies used include:
 
