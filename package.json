@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timothylalbrecht/mongo-scraper.git"
+    "url": "git+https://github.com/timothylalbrecht/mongo-scraper-bulma.git"
   },
   "author": "tim albrecht",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/timothylalbrecht/mongo-scraper/issues"
+    "url": "https://github.com/timothylalbrecht/mongo-scraper-bulma/issues"
   },
-  "homepage": "https://github.com/timothylalbrecht/mongo-scraper#readme",
+  "homepage": "https://github.com/timothylalbrecht/mongo-scraper-bulma#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "bulma": "^0.7.2",
