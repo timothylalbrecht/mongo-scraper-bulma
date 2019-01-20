@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mongo Scraper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
+</head>
+
+<body>
+
+<section class="hero is-primary is-info">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA"></span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <span class="navbar-item">
+                <a class="button is-info is-inverted" id="scrape" href="/">
+                    <span>Scrape Page</span>
+                </a>
+            </span>
+            <span class="navbar-item">
+                <a class="button is-info is-inverted" id="all-articles" href="/articles">
+                    <span>Articles</span>
+                </a>
+            </span>
+            <span class="navbar-item">
+                <a class="button is-info is-inverted" href="https://github.com/timothylalbrecht/mongo-scraper-bulma" target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>Github Source</span>
+                </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        BBC Homepage Scraper
+      </h1>
+      <h2 class="subtitle">
+        Mongo Edition
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div id="articles">
+          <!-- articles go here -->
+        </div>
+      </div>
+      <div class="column">
+        <div id="notes">
+          <!-- notes go here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
